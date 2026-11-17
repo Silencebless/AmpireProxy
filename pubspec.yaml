@@ -1,0 +1,27 @@
+name: ampire
+description: Ampire Proxy Utilities, утилита для подключения к своим серверам.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  # Шрифт Onest: положите файлы в assets/fonts и раскомментируйте
+  # fonts:
+  #   - family: Onest
+  #     fonts:
+  #       - asset: assets/fonts/Onest-Light.ttf
+  #         weight: 300
+  #       - asset: assets/fonts/Onest-Medium.ttf
+  #         weight: 500
